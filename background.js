@@ -1,1 +1,0 @@
-// Background.js content goes here

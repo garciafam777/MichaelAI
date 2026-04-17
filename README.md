@@ -141,7 +141,7 @@ Feel free to reach out via [your contact method / GitHub issues / email].
 
 ## 📜 License & Copyright
 
-© [Your Name / Year] — All Rights Reserved.  
+©R&Y Productions 2026  — All Rights Reserved.  
 This is a copyrighted program. It is provided for testing purposes only. Redistribution or modification without permission is not allowed.
 
 ---

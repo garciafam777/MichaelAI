@@ -1,19 +1,9 @@
-{
-  "manifest_version": 3,
-  "name": "MichaelAI",
-  "author": "R&Y Productions",
-  "version": "1.0",
-  "description": "AI-powered assistant for Opera GX.",
-  "permissions": [
-    "activeTab",
-    "storage",
-    "scripting"
-  ],
-  "action": {
-    "default_popup": "popup.html",
-    "default_icon": "icon.png"
-  },
-  "background": {
-    "service_worker": "background.js"
-  }
-}
+// This listens for when the extension is first installed
+chrome.runtime.onInstalled.addListener(() => {
+  console.log("MichaelAI by R&Y Productions is active.");
+});
+
+// Example: Listen for a keyboard shortcut or a specific command
+chrome.commands.onCommand.addListener((command) => {
+  console.log(`Command received: ${command}`);
+});
